@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
       <p>Price: {product.price}</p>
       <p>Status: {product.inStock ? 'In Stock' : 'Out of Stock'}</p>
 
-      {/* TODO: Implement Add to Cart button functionality */}
+      {/*qQqq Implement Add to Cart button functionality */}
       <button data-testid={'product-' + product.id}>Add to Cart</button>
     </div>
   )
