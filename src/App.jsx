@@ -5,10 +5,10 @@ import Cart from './components/Cart'
 
 
 const products = [
-  { id: 1, name: "Apple", category: "Fruits" },
-  { id: 2, name: "Milk", category: "Dairy" },
-  { id: 3, name: "Carrot", category: "Vegetables" },
-  { id: 4, name: "Banana", category: "Fruits" }
+  { id: 1, name: "Apple", price: 'ksh50', category: "Fruits", inStock: "true" },
+  { id: 2, name: "Milk", price: 'ksh 45', category: "Dairy", inStock: "true" },
+  { id: 3, name: "Carrot", price: 'ksh 20', category: "Vegetables", inStock: "true" },
+  { id: 4, name: "Banana", price: 'ksh 10', category: "Fruits", inStock: "true" }
 ];
 
 function App() {
